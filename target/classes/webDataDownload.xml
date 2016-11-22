@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<version>1.0</version>
+
+<!-- 下载页面 -->
+
+<dataDownload>
+    <readFile>E:\ceshi\url.txt</readFile>                                                   <!-- 读取网页地址文件（一行占一个地址） -->
+    <readFIleCharset>utf-8</readFIleCharset>                                                <!-- 读取文件的字符集 -->
+    <outFile>E:\ceshi\file</outFile>                                                        <!-- 输出文件地址 -->
+    <outFileCharset>utf-8</outFileCharset>                                                  <!-- 输出文件的字符集 -->
+    <time>0</time>                                                                          <!-- 间隔时间(ms)。间隔时间为0时，使用多线程，同步请求 -->
+    <type>post</type>                                                                       <!-- 类型 -->
+</dataDownload>
+
+<!-- 支持多个 -->
+<!--<dataDownload>
+    <readFile>E:\idea\data\webDataAnalysis\file\configurationFile\url.txt</readFile>
+    <readFIleCharset>utf-8</readFIleCharset>
+    <outFile>E:\idea\data\webDataAnalysis\file\webDataDownload2</outFile>
+    <outFileCharset>utf-8</outFileCharset>
+    <time>0</time>
+    <type>get</type>
+</dataDownload>-->

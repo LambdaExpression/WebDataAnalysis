@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<version>1.0.00</version>
+
+<!-- 解析网页 -->
+
+<dataFile>
+    <readFile>E:\lin\new\asm</readFile>      <!-- 读取文件地址-->
+    <suffix>html</suffix>                                                       <!-- 文本后缀-->
+    <readFIleCharset>utf-8</readFIleCharset>                                    <!-- 读取文件的字符集-->
+    <outFile>E:\lin\new\asmAnalysis\webDataAnalysis.xls</outFile>        <!-- 输出文件地址-->
+    <outFileCharset>utf-8</outFileCharset>                                      <!-- 输出文件的字符集-->
+</dataFile>
+
+<dataAnalysis>
+    <id>cc</id>                     <!-- id-->
+    <select>ul li</select>            <!-- 查询条件-->
+</dataAnalysis>
+
+<dataAnalysis>
+    <extendsInId>cc</extendsInId>       <!-- 继承于某个id-->
+    <select>a</select>            <!-- 查询条件-->
+    <valueType>attr:href</valueType>     <!-- 值类型-->
+    <column>0</column>                  <!-- xls列数-->
+    <columnName>Url</columnName>      <!-- 列名-->
+</dataAnalysis>

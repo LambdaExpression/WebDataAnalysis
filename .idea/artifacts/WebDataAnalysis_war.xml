@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebDataAnalysis:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="webDataAnalysis.war">
+      <element id="artifact" artifact-name="WebDataAnalysis:war exploded" />
+    </root>
+  </artifact>
+</component>
